@@ -8,6 +8,7 @@ Some of the requirements that the project is supposed to meet include:
 - Tell the user through a pop up that you have received their message and also thank them for contacting you.
 - Use mail chimp API to track all the emails and messages from your users.
 - Host your website to github pages.
+
 The fictional project to be recreated:    
 ![Delani fictional studio](https://github.com/jonnygovish/IP3/blob/master/%20Delani%20Studio.jpg?raw=true)
 #### Author
