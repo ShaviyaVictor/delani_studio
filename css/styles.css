@@ -3,6 +3,9 @@
 
 
 /*      start of section1 styles     */
+*{
+  font-family: 'Duru Sans', sans-serif;
+}
 #section1{
   margin: 0px;
   background-image: url('../assets/backgrounds/h_img.jpg');
@@ -68,6 +71,22 @@ section#about {
   padding: 1rem;
 }
 /*      end of section3 styles     */
+/*      start of section4 styles     */
+section#section4{
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+section#section4 div.col-md-4{
+  padding: 1rem;
+}
+section#section4 div.hidden{
+  display: none;
+}
+section#section4 div.col-md-4 h3{
+  padding: 1rem;
+}
+/*      end of section4 styles     */
 /*      start of media queries     */
 @media (min-width: 767.7px){
   #top{
