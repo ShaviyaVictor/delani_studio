@@ -1,4 +1,5 @@
 # DELANI STUDIO
+![Delani fictional studio](https://github.com/ShaviyaVictor/delani_studio/blob/main/assets/Screenshot_akanNameGenerate.png)
 ## Project Description
 This is a recreation of a landing page for a fictional studio. I am tasked to implement everything I have learnt from Bootstrap and jQuery.    
 Some of the requirements that the project is supposed to meet include:    
