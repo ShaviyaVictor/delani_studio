@@ -15,7 +15,7 @@
 #top{
   width: 6em;
   margin-top: 10rem;
-  margin-left: 7.8rem;
+  margin-left: 8rem;
 }
 #bottom{
   width: 3em;
@@ -46,6 +46,29 @@
   font-size: small;
   margin-top: -0.5rem;
 }
+/*      end of section1 styles     */
+/*      start of section2 styles     */
+section#about {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+/*      end of section2 styles     */
+/*      start of section3 styles     */
+#section3{
+  margin: 0px;
+  background-image: url('../assets/backgrounds/s_image.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+#section3 div.container{
+  padding: 1rem;
+}
+/*      end of section3 styles     */
+/*      start of media queries     */
 @media (min-width: 767.7px){
   #top{
     width: 8em;
@@ -68,6 +91,9 @@
   #section1 div.text h3{
     font-size: medium;
     margin-top: -0.5rem;
+  }
+  #section3 div.container{
+    padding: 4rem;
   }
 }
 @media (min-width: 1365.9px){
@@ -93,6 +119,13 @@
     font-size: medium;
     margin-top: -0.5rem;
   }
+  #section3 div.container{
+    padding: 4.2rem;
+  }
+  #section3 div.container p{
+    line-height: 2.5rem;
+    margin-top: -0.8rem;
+  }
 }
 @media (min-width: 1527.9px){
   #top{
@@ -116,6 +149,13 @@
   #section1 div.text h3{
     font-size: medium;
     margin-top: -0.5rem;
+  }
+  #section3 div.container{
+    padding: 7.5rem;
+  }
+  #section3 div.container p{
+    line-height: 2.5rem;
+    margin-top: -0.8rem;
   }
 }
 @media (min-width: 1919.9px){
@@ -141,13 +181,22 @@
     font-size: medium;
     margin-top: -0.5rem;
   }
+  section#about {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 2.5rem;
+  }
+  section#about p{
+    font-size: 1.5rem;
+  }
+  #section3 div.container{
+    padding: 7.2rem;
+  }
+  #section3 div.container p{
+    line-height: 2.5rem;
+    margin-top: -0.8rem;
+    font-size: 1.5rem;
+  }
 }
-
-/*      end of section1 styles     */
-/*      start of section2 styles     */
-section#about {
-  text-align: center;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
-/*      end of section2 styles     */
+/*      end of media queries     */
