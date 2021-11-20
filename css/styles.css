@@ -137,7 +137,7 @@ section#section6 input{
 section#section6 textarea{
   background: transparent;
   margin-top: 1rem;
-  margin-bottom: 5rem;
+  margin-bottom: 0rem;
 }
 
 /*      end of section6 styles      */
@@ -186,6 +186,9 @@ footer div.icon{
   #section3 div.container{
     padding: 4rem;
   }
+}
+section#section6 textarea{
+  margin-bottom: 1rem;
 }
 @media (min-width: 1365.9px){
   #top{
@@ -288,6 +291,9 @@ footer div.icon{
     line-height: 2.5rem;
     margin-top: -0.8rem;
     font-size: 1.5rem;
+  }
+  section#section6 textarea{
+    margin-bottom: 13rem;
   }
 }
 /*      end of media queries     */
