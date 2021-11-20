@@ -121,3 +121,16 @@ $(document).ready(function(){
 
 
 //      Business/Back-end logic
+
+
+$("#contact_form").submit(function(){
+  let name = $("#name").val();
+  let email = $("#email").val();
+  let feedback = $("#feedback").val();
+  let myForm = $("#contact_form")[0];
+
+  if(!name || !email || !feedback){
+    alert("Yey! It works.")
+    
+  }
+})
