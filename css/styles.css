@@ -8,6 +8,7 @@
 }
 #section1{
   margin: 0px;
+  background: rgba(116, 98, 83, 0.5);
   background-image: url('../assets/backgrounds/h_img.jpg');
   background-size: cover;
   background-position: center center;
@@ -113,6 +114,14 @@ section#section5 img{
   width: 98%;
 }
 /*      end of section5 styles      */
+
+/*      start of section6 styles     */
+section#section6{
+  text-align: center;
+}
+
+/*      end of section6 styles      */
+
 /*      start of media queries     */
 @media (min-width: 767.7px){
   #top{
