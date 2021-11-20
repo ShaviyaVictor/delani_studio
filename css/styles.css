@@ -118,6 +118,8 @@ section#section5 img{
 /*      start of section6 styles     */
 section#section6{
   text-align: center;
+  background: rgba(116, 98, 83, 0.5);
+  background-image: url('../assets/backgrounds/c_image.jpg');
 }
 
 /*      end of section6 styles      */
