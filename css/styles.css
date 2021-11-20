@@ -72,10 +72,13 @@ section#about {
 }
 /*      end of section3 styles     */
 /*      start of section4 styles     */
-section#section4{
+section#section4, section#section5 {
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+section#section4 h1, section#section5 h1{
+  margin: 1.5rem;
 }
 section#section4 div.col-md-4{
   padding: 1rem;
@@ -86,7 +89,18 @@ section#section4 div.hidden{
 section#section4 div.col-md-4 h3{
   padding: 1rem;
 }
+section#section4 .hidden h2{
+  text-decoration: underline;
+}
 /*      end of section4 styles     */
+/*      start of section5 styles      */
+section#section5 .row{
+  
+}
+section#section5 img{
+  width: 98%;
+}
+/*      end of section5 styles      */
 /*      start of media queries     */
 @media (min-width: 767.7px){
   #top{
