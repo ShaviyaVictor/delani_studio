@@ -1,6 +1,6 @@
 /*    font-family: 'Duru Sans', sans-serif;  */
 @import url('https://fonts.googleapis.com/css2?family=Duru+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@800&display=swap');
 
 /*      start of section1 styles     */
 *{
@@ -97,6 +97,13 @@ section#section4 .hidden h2{
 /*      start of section5 styles      */
 section#section5 .row h5{
   display: none;
+  margin: -14rem 1rem;
+  padding: 4rem;
+  background-color: rgba(188, 191, 196, 0.4);
+  border: solid ;
+  color: #fff;
+  font-weight: bolder;
+  font-family: 'Martel', serif;
 }
 section#section5 .row img, section#section5 .row{
   margin-bottom: 1rem;
