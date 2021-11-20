@@ -97,9 +97,10 @@ section#section4 .hidden h2{
 /*      start of section5 styles      */
 section#section5 .row h5{
   display: none;
-  margin: -14rem 1rem;
+  margin: -14rem 1.7rem;
   padding: 4rem;
-  background-color: rgba(188, 191, 196, 0.4);
+  position: absolute;
+  background-color: rgba(188, 191, 196, 0.5);
   border: solid ;
   color: #fff;
   font-weight: bolder;
