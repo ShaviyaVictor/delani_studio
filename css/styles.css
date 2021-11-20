@@ -133,11 +133,20 @@ section#section6 h1{
 section#section6 input{
   background: transparent;
   margin: 0.3rem;
+  color: #fff;
 }
 section#section6 textarea{
   background: transparent;
   margin-top: 1rem;
   margin-bottom: 0rem;
+  color: #fff;
+}
+.form-control::-webkit-input-placeholder { 
+  color: white; 
+}
+section#section6 input.btn:hover{
+  background-color: rgba(226, 175, 74, 1);
+  border: none;
 }
 
 /*      end of section6 styles      */
@@ -293,7 +302,10 @@ section#section6 textarea{
     font-size: 1.5rem;
   }
   section#section6 textarea{
-    margin-bottom: 13rem;
+    margin-bottom: 3rem;
+  }
+  section#section6 input.btn{
+    margin-bottom: 7rem;
   }
 }
 /*      end of media queries     */
