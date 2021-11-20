@@ -78,7 +78,8 @@ section#section4, section#section5 {
   margin-bottom: 3rem;
 }
 section#section4 h1, section#section5 h1{
-  margin: 1.5rem;
+  margin-bottom: 2rem;
+  margin-top: -2rem;
 }
 section#section4 div.col-md-4{
   padding: 1rem;
@@ -94,8 +95,11 @@ section#section4 .hidden h2{
 }
 /*      end of section4 styles     */
 /*      start of section5 styles      */
-section#section5 .row{
-  
+section#section5 .row h5{
+  display: none;
+}
+section#section5 .row img, section#section5 .row{
+  margin-bottom: 1rem;
 }
 section#section5 img{
   width: 98%;
