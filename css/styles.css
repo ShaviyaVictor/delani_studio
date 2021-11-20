@@ -121,6 +121,12 @@ section#section6{
   background: rgba(116, 98, 83, 0.5);
   background-image: url('../assets/backgrounds/c_image.jpg');
 }
+#emailHelp{
+  text-align: left;
+}
+section#section6 h1{
+  ma
+}
 
 /*      end of section6 styles      */
 
