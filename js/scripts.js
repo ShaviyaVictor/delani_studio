@@ -2,6 +2,7 @@
   $(".hidden").toggle();
 });*/
 
+//      UI/Front-end logic
 $(document).ready(function(){
   $("#designtag").click(function(){
     $("#designinfo").toggle('1500');
@@ -111,3 +112,5 @@ $(document).ready(function(){
     $("#work8").hide();
   });
 });
+
+//      Business/Back-end logic
