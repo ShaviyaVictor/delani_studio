@@ -113,4 +113,11 @@ $(document).ready(function(){
   });
 });
 
+$(document).ready(function(){
+  $(".green").submit(function(){
+    $(".green").addClass(".btn-success");
+  })
+});
+
+
 //      Business/Back-end logic
