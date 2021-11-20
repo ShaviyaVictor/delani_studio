@@ -120,12 +120,23 @@ section#section6{
   text-align: center;
   background: rgba(116, 98, 83, 0.5);
   background-image: url('../assets/backgrounds/c_image.jpg');
+  margin-top: -1rem;
 }
 #emailHelp{
   text-align: left;
 }
 section#section6 h1{
-  ma
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+section#section6 input{
+  background: transparent;
+  margin: 0.3rem;
+}
+section#section6 textarea{
+  background: transparent;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
 }
 
 /*      end of section6 styles      */
