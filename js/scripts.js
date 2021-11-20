@@ -130,7 +130,13 @@ $("#contact_form").submit(function(){
   let myForm = $("#contact_form")[0];
 
   if(!name || !email || !feedback){
-    alert("Yey! It works.")
-    
+    alert("Oops...Check your inputs!")
+    return false;
+  }
+  else{
+    myForm.method = "post";
+    myForm.action = "https://gmail.us20.list-manage.com/subscribe/post?u=aa7bcccdbd6660eb686bccd9f&amp;id=4eb357612a"
+    alert(`Yes. That was a success ${name}. we have received your message. Thank you for reaching out to us.`)
+    return true;
   }
 })
