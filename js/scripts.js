@@ -43,7 +43,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   
   $("#image4").mouseover(function(){
-    $("#work4").show(1200);
+    $("#work4").show();
   });
   $("#image4").mouseout(function(){
     $("#work4").hide();
@@ -52,7 +52,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#image3").mouseover(function(){
-    $("#work3").show(1200);
+    $("#work3").show();
   });
   $("#image3").mouseout(function(){
     $("#work3").hide();
@@ -61,7 +61,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#image2").mouseover(function(){
-    $("#work2").show(1200);
+    $("#work2").show();
   });
   $("#image2").mouseout(function(){
     $("#work2").hide();
@@ -70,7 +70,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#image1").mouseover(function(){
-    $("#work1").show(1200);
+    $("#work1").show();
   });
   $("#image1").mouseout(function(){
     $("#work1").hide();
@@ -79,7 +79,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#image5").mouseover(function(){
-    $("#work5").show(1200);
+    $("#work5").show();
   });
   $("#image5").mouseout(function(){
     $("#work5").hide();
@@ -88,7 +88,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#image6").mouseover(function(){
-    $("#work6").show(1200);
+    $("#work6").show();
   });
   $("#image6").mouseout(function(){
     $("#work6").hide();
@@ -97,7 +97,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#image7").mouseover(function(){
-    $("#work7").show(1200);
+    $("#work7").show();
   });
   $("#image7").mouseout(function(){
     $("#work7").hide();
@@ -106,7 +106,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#image8").mouseover(function(){
-    $("#work8").show(1200);
+    $("#work8").show();
   });
   $("#image8").mouseout(function(){
     $("#work8").hide();
